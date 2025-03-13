@@ -1,0 +1,5 @@
+dir.create("results", showWarnings=FALSE)
+pdf("results/plots.pdf", width=9, height=7)
+dev.control(displaylist="enable")
+source("analysis.R", echo=FALSE, print.eval=TRUE)
+dev.off()

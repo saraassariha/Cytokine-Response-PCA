@@ -1,0 +1,6 @@
+* -text
+*.R text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.rds binary
+*.ab1 binary
